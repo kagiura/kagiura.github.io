@@ -1,0 +1,5 @@
+{
+  "files.associations": {
+    "__layouts/*.html": "plaintext"
+  }
+}
