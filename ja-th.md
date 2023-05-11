@@ -3,9 +3,9 @@ layout: default
 custom_css: ja-th
 ---
 
-# Yuu's Japanese to Thai Transliteration Rules
+# Japanese to Thai Transliteration Rules
 
-<p style="color: var(--clr-h2); font-size: 1.5em;">หลักการทับศัพท์ภาษาญี่ปุ่นของ Yuu<br/>ゆうの「日本語のタイ語表記」</p>
+<p style="color: var(--clr-h2); font-size: 1.5em;">หลักการทับศัพท์ภาษาญี่ปุ่น<br/>日本語のタイ語表記</p>
 
 **Disclaimers**
 

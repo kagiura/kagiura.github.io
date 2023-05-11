@@ -9,8 +9,8 @@ don't expect anything quality! mostly just either dev, language, or bl rambles~
 ## Pages
 
 - [My profile (over at yuukun.dev) ↗️](https://yuukun.dev)
-- [Yuu's Japanese to Thai Transliteration Rules ↗️](https://github.com/kagiura/ja-th)
-  - [HTML/Website Version (WIP)](/ja-th)
+- [Japanese to Thai Transliteration Rules](/ja-th)
+  - [PDF Version on GitHub](https://github.com/kagiura/ja-th)
 - Full list of Twitter design works (Twitter moments replacement):
   - [2022-2023](/design-works/22)
   - [2021](/design-works/21)
