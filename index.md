@@ -21,7 +21,7 @@ don't expect anything quality! mostly just either dev, language, or bl rambles~
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
+      {{ post.date | date: "%B %-d, %Y" }} {{ post.excerpt }}
     </li>
   {% endfor %}
 </ul>

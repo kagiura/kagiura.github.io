@@ -3,15 +3,16 @@ layout: default
 custom_css: ja-th
 ---
 
-# THIS IS A WORK IN PROGRESS, CHECK THE PROPER PDF FILE AT github.com/kagiura/ja-th
-
 # Yuu's Japanese to Thai Transliteration Rules
 
 <p style="color: var(--clr-h2); font-size: 1.5em;">หลักการทับศัพท์ภาษาญี่ปุ่นของ Yuu<br/>ゆうの「日本語のタイ語表記」</p>
 
-**Disclaimer**: This is not a project done by a qualified professional,
-but a personal project of mine to practice and further my understanding
-in Japanese phonology.
+**Disclaimers**
+
+- This is not a project done by a qualified professional,
+  but a personal project of mine to practice and further my understanding
+  in Japanese phonology.
+- This project is still a work-in-progress!
 
 ## Table of Contents
 
@@ -79,9 +80,7 @@ _Makoto_).
 This document is made possible with the help of Phyblas’ transliteration
 rules, which served as both the inspiration for this project and the
 central reference for this document. Additionally, the Chulalongkorn
-University Central Library has been of extensive help in finding
-attributions and citations necessary to this project. The image on the
-cover is from Project Sekai: Colorful Stage.
+University Central Library and the Burapha University Library has been of extensive help in finding attributions and citations necessary to this project.
 
 # General Guidelines
 
@@ -326,9 +325,8 @@ cover is from Project Sekai: Colorful Stage.
 <td><em>ei</em></td>
 <td>/eː/, /ei/</td>
 <td>
-<p>
-เอย์<a href="#fn1" class="footnote-ref" id="fnref1"
-role="doc-noteref"><sup>1</sup></a>
+<p markdown="1">
+เอย์[^2]
 </p>
 <dl>
     <div>
@@ -343,9 +341,8 @@ role="doc-noteref"><sup>1</sup></a>
 <td><em>oo, ou</em></td>
 <td>/oː/</td>
 <td>
-<p>
-โอ<a href="#fn2" class="footnote-ref" id="fnref2"
-role="doc-noteref"><sup>2</sup></a>
+<p markdown="1">
+โอ[^3]
 </p>
 <dl>
     <div>
@@ -362,22 +359,6 @@ role="doc-noteref"><sup>2</sup></a>
 </tr>
 </tbody>
 </table>
-<section class="footnotes footnotes-end-of-document"
-role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1" role="doc-endnote"><p>えい and ええ have the same
-pronunciation (/eː/) in general speech; however, when enunciating or
-stressing, えい may turn into /ei/. Thus, -ย์ is introduced to
-differentiate ええ and えい.<a href="#fnref1" class="footnote-back"
-role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>In media and popular use, おう can
-have -ว (making โอว) to indicate the う part. However, this is
-considered unnecessary, as おう and おお are pronounced the same
-(/oː/).<a href="#fnref2" class="footnote-back"
-role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
 
 ## Vowel Sequences
 
@@ -385,11 +366,6 @@ All vowel sequences, apart from long vowels, should be written down in
 usual consecutive order, i.e.
 
 <table style="max-width: 300px; margin-left: 2em;">
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
 <tbody>
 <tr>
 <td>あみあ</td>
@@ -414,7 +390,7 @@ usual consecutive order, i.e.
 </tbody>
 </table>
 
-Some vowel sequences, however, have exceptions:[^2]
+Some vowel sequences, however, have exceptions:[^4]
 
 <table class="rt">
 <tbody>
@@ -437,8 +413,7 @@ Some vowel sequences, however, have exceptions:[^2]
 <td><em>ui</em></td>
 <td>/ɯi/</td>
 <td>
-<p>อุย<a href="#fn1" class="footnote-ref" id="fnref1"
-role="doc-noteref"><sup>1</sup></a></p>
+<p markdown="1">อุย[^5]</p>
 <dl>
     <div>
         <dt>るい</dt>
@@ -471,15 +446,6 @@ role="doc-noteref"><sup>1</sup></a></p>
 </tr>
 </tbody>
 </table>
-<section class="footnotes footnotes-end-of-document"
-role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1" role="doc-endnote"><p>すい, ずい, and つい are also written
-with อุย, as อึย does not appear in Thai.<a href="#fnref1"
-class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
 
 ## Yōon
 
@@ -532,8 +498,7 @@ class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <td><p><em>–yo,<br/>–yō</em></p></td>
 <td><p>/ʲo/,<br/>/ʲɯː/</p></td>
 <td>
-<p>เอียว<a href="#fn1" class="footnote-ref" id="fnref1"
-role="doc-noteref"><sup>1</sup></a></p>
+<p markdown="1">เอียว[^6]</p>
 <dl>
     <div>
         <dt>きょく</dt>
@@ -549,41 +514,33 @@ role="doc-noteref"><sup>1</sup></a></p>
 </tr>
 </tbody>
 </table>
-<section class="footnotes footnotes-end-of-document"
-role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1" role="doc-endnote"><p>Remove the following final consonant
-if any, since เอียว already has a final consonant.<a href="#fnref1"
-class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
 
 For yōon starting with し, ち, or じ, the palatalized sound gets merged
 into the vowel sound, thus removing the palatalized vowel, i.e.
 
-<table>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 25%" />
-<col style="width: 12%" />
-<col style="width: 37%" />
-</colgroup>
+<table style="max-width: 300px; margin-left: 2em;">
 <tbody>
 <tr>
-<td><p>しょうじ</p>
-<p>チャンス</p>
-<p>じゅうにん</p></td>
-<td><p><em>shōji</em></p>
-<p><em>chansu</em></p>
-<p><em>jūnin</em></p></td>
-<td><p>โชจิ</p>
-<p>จันสุ</p>
-<p>จูนิน</p></td>
-<td><p><em>not เชียวจิ</em></p>
-<p><em>not เจียนสุ</em></p>
-<p><em>not จิวนิน</em></p></td>
+<td>しょうじ</td>
+<td class="rmj">shōji</td>
+<td>โชจิ</td>
+<td><em>not</em> เชียวจิ</td>
 </tr>
+
+<tr>
+<td>チャンス</td>
+<td class="rmj">chansu</td>
+<td>จันสุ</td>
+<td><em>not</em> เจียนสุ</td>
+</tr>
+
+<tr>
+<td>じゅうにん</td>
+<td class="rmj">jūnin</td>
+<td>จูนิน</td>
+<td><em>not</em> จิวนิน</td>
+</tr>
+
 </tbody>
 </table>
 
@@ -593,495 +550,668 @@ Simply transcribe them as あ, う, or お sounds in this case.
 
 ## Initial Consonants
 
-<table>
-<colgroup>
-<col style="width: 7%" />
-<col style="width: 9%" />
-<col style="width: 7%" />
-<col style="width: 37%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th colspan="3"><strong>Kana</strong></th>
-<th><strong>Thai Transliteration</strong></th>
-<th colspan="3"><strong>Examples</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>あ い う え お を</td>
-<td><p><em>a i u</em></p>
-<p><em>e o wo</em></p></td>
-<td>–</td>
-<td>อ</td>
-<td><p>あおい</p>
-<p>を</p></td>
-<td><p><em>aoi</em></p>
-<p><em>wo</em></p></td>
-<td><p>อาโออิ</p>
-<p>โอะ</p></td>
-</tr>
-<tr>
-<td>か き く け こ</td>
-<td><p><em>ka ki ku</em></p>
-<p><em>ke ko</em></p></td>
-<td>/k/</td>
-<td><p>ค when syllable-initial</p>
-<p>ก in all other positions</p></td>
-<td><p>かっき</p>
-<p>たけのこ</p></td>
-<td><p><em>kakki</em></p>
-<p><em>takenoko</em></p></td>
-<td><p>คักกิ</p>
-<p>ทาเกะโนะโกะ</p></td>
-</tr>
-<tr>
-<td>が ぎ ぐ げ ご</td>
-<td><p><em>ga gi gu</em></p>
-<p><em>ge go</em></p></td>
-<td>/g/, /ŋ/</td>
-<td><p>ก when syllable-initial</p>
-<p>ง in all other positions</p></td>
-<td><p>かぎ</p>
-<p>うげつ</p></td>
-<td><p><em>kagi</em></p>
-<p><em>Ugetsu</em></p></td>
-<td><p>คางิ</p>
-<p>อุเง็ตสึ</p></td>
-</tr>
-<tr>
-<td>さ す せ そ</td>
-<td><p><em>sa su se</em></p>
-<p><em>so</em></p></td>
-<td>/s/</td>
-<td><p>ส when pronounced with short vowel</p>
-<p>ซ in all other positions</p></td>
-<td><p>ささき</p>
-<p>ななせ</p></td>
-<td><p><em>Sasaki</em></p>
-<p><em>Nanase</em></p></td>
-<td><p>ซาซากิ</p>
-<p>นานาเสะ</p></td>
-</tr>
-<tr>
-<td>ざ ず ぜ ぞ づ</td>
-<td><p><em>za zu ze</em></p>
-<p><em>zo zu</em></p></td>
-<td>/dz/, /z/</td>
-<td>ซ</td>
-<td><p>みずき</p>
-<p>てづくり</p></td>
-<td><p><em>Mizuki</em></p>
-<p><em>tezukuri</em></p></td>
-<td><p>มิซึกิ</p>
-<p>เทซึคุริ</p></td>
-</tr>
-<tr>
-<td>し</td>
-<td><em>shi</em></td>
-<td>/ɕ/</td>
-<td>ช</td>
-<td>しらはま</td>
-<td><em>Shirahama</em></td>
-<td>ชิราฮามะ</td>
-</tr>
-<tr>
-<td>じ ぢ</td>
-<td><em>ji ji</em></td>
-<td>/dʑ/, /ʑ/</td>
-<td>จ</td>
-<td>じゅん</td>
-<td><em>Jun</em></td>
-<td>จุน</td>
-</tr>
-<tr>
-<td>た て と</td>
-<td><em>ta te to</em></td>
-<td>/t/</td>
-<td><p>ท when syllable-initial</p>
-<p>ต in all other positions</p></td>
-<td><p>たんとう</p>
-<p>アトリエ</p></td>
-<td><p><em>tantou</em></p>
-<p><em>atorie</em></p></td>
-<td><p>ทันโต</p>
-<p>อาโตริเอ</p></td>
-</tr>
-<tr>
-<td>だ で ど</td>
-<td><em>da de do</em></td>
-<td>/d/</td>
-<td>ด</td>
-<td>だいじ</td>
-<td><em>daiji</em></td>
-<td>ไดจิ</td>
-</tr>
-<tr>
-<td>ち</td>
-<td><em>chi</em></td>
-<td>/tɕ/</td>
-<td>จ</td>
-<td>ちはる</td>
-<td><em>Chiharu</em></td>
-<td>จิฮารุ</td>
-</tr>
-<tr>
-<td>つ</td>
-<td><em>tsu</em></td>
-<td>/ts/</td>
-<td><p>ทส, ทซ when syllable-initial</p>
-<p>ตส, ตซ in all other positions</p>
-<p>(When placed after an open syllable,</p>
-<p>count ต as a final consonant)</p></td>
-<td><p>つける</p>
-<p>かつき</p>
-<p>ふつう</p>
-<p>つうか</p></td>
-<td><p><em>tsukeru</em></p>
-<p><em>Katsuki</em></p>
-<p><em>futsū</em></p>
-<p><em>tsūka</em></p></td>
-<td><p>ทสึเกรุ</p>
-<p>คัตสึกิ</p>
-<p>ฟุตซือ</p>
-<p>ทซือกะ</p></td>
-</tr>
-<tr>
-<td>な ぬ ね の</td>
-<td><p><em>na nu ne</em></p>
-<p><em>no</em></p></td>
-<td>/n/</td>
-<td>น</td>
-<td><p>なに</p>
-<p>ねこ</p></td>
-<td><p><em>nani</em></p>
-<p><em>neko</em></p></td>
-<td><p>นานิ</p>
-<p>เนโกะ</p></td>
-</tr>
-<tr>
-<td>に</td>
-<td><em>ni</em></td>
-<td>/ɲ/</td>
-<td>น</td>
-<td>にんき</td>
-<td><em>ninki</em></td>
-<td>นิงกิ</td>
-</tr>
-<tr>
-<td>は へ ほ</td>
-<td><em>ha he ho</em></td>
-<td>/h/</td>
-<td>ฮ</td>
-<td>はんざわ</td>
-<td><em>Hanzawa</em></td>
-<td>ฮันซาวะ</td>
-</tr>
-<tr>
-<td>ば び ぶ べ ぼ</td>
-<td><p><em>ba bi bu</em></p>
-<p><em>be bo</em></p></td>
-<td>/b/</td>
-<td>บ</td>
-<td><p>バスケ</p>
-<p>びょうき</p></td>
-<td><p><em>basuke</em></p>
-<p><em>byōki</em></p></td>
-<td><p>บาสึเกะ</p>
-<p>เบียวกิ</p></td>
-</tr>
-<tr>
-<td>ぱ ぴ ぷ ぺ ぽ</td>
-<td><p><em>pa pi pu</em></p>
-<p><em>pe po</em></p></td>
-<td>/p/</td>
-<td><p>พ when syllable-initial</p>
-<p>ป in all other positions<a href="#fn1" class="footnote-ref"
-id="fnref1" role="doc-noteref"><sup>1</sup></a></p></td>
-<td><p>パスポート</p>
-<p>きっぷ</p></td>
-<td><p><em>pasupōto</em></p>
-<p><em>kippu</em></p></td>
-<td><p>พาสุโปโตะ</p>
-<p>คิปปุ</p></td>
-</tr>
-<tr>
-<td>ひ</td>
-<td><em>hi</em></td>
-<td>/ç/</td>
-<td>ฮ</td>
-<td>ひめる</td>
-<td><em>himeru</em></td>
-<td>ฮิเมรุ</td>
-</tr>
-<tr>
-<td>ふ</td>
-<td><em>fu</em></td>
-<td>/ɸ/</td>
-<td>ฟ</td>
-<td>ふだんし</td>
-<td><em>fudanshi</em></td>
-<td>ฟุดันชิ</td>
-</tr>
-<tr>
-<td>ま み む め も</td>
-<td><p><em>ma mi mu</em></p>
-<p><em>me mo</em></p></td>
-<td>/m/</td>
-<td>ม</td>
-<td><p>まばたき</p>
-<p>めがね</p></td>
-<td><p><em>mabataki</em></p>
-<p><em>megane</em></p></td>
-<td><p>มาบาตากิ</p>
-<p>เมงาเนะ</p></td>
-</tr>
-<tr>
-<td>や ゆ よ</td>
-<td><em>ya yu yo</em></td>
-<td>/j/</td>
-<td>ย</td>
-<td>やしろ</td>
-<td><em>Yashiro</em></td>
-<td>ยาชิโระ</td>
-</tr>
-<tr>
-<td>ら り る れ ろ</td>
-<td><em>ra ri ru<br />
-re ro</em></td>
-<td>/ɾ/</td>
-<td>ร</td>
-<td><p>れき</p>
-<p>いろいろ</p></td>
-<td><p><em>Reki</em></p>
-<p><em>iroiro</em></p></td>
-<td><p>เรกิ</p>
-<p>อิโรอิโระ</p></td>
-</tr>
-<tr>
-<td>わ</td>
-<td><em>wa</em></td>
-<td>/ɰ/</td>
-<td>ว</td>
-<td>ワンツー</td>
-<td><em>wantsū</em></td>
-<td>วันทซือ</td>
-</tr>
-</tbody>
+<table class="rt">
+    <tbody>
+        <tr>
+            <td>あ い う え お を</td>
+            <td>
+                <p><em>a i u</em></p>
+                <p><em>e o wo</em></p>
+            </td>
+            <td>/ʔ/</td>
+            <td>
+                <p>
+                    อ
+                </p>
+                <dl>
+                    <div>
+                        <dt>あおい</dt>
+                        <dd class="rmj">aoi</dd>
+                        <dd>อาโออิ</dd>
+                    </div>
+                    <div>
+                        <dt>を</dt>
+                        <dd class="rmj">wo</dd>
+                        <dd>โอะ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>か き く け こ</td>
+            <td>
+                <p><em>ka ki ku</em></p>
+                <p><em>ke ko</em></p>
+            </td>
+            <td>/k/</td>
+            <td>
+                <p markdown="1">ค when syllable-initial[^7]<br />ก in all other positions</p>
+                <dl>
+                    <div>
+                        <dt>かっき</dt>
+                        <dd class="rmj">kakki</dd>
+                        <dd>คักกิ</dd>
+                    </div>
+                    <div>
+                        <dt>たけのこ</dt>
+                        <dd class="rmj">takenoko</dd>
+                        <dd>ทาเกะโนะโกะ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>が ぎ ぐ げ ご</td>
+            <td>
+                <p><em>ga gi gu</em></p>
+                <p><em>ge go</em></p>
+            </td>
+            <td>/g/, /ŋ/</td>
+            <td>
+                <p>ก when syllable-initial<br />ง in all other positions</p>
+                <dl>
+                    <div>
+                        <dt>かぎ</dt>
+                        <dd class="rmj">kagi</dd>
+                        <dd>คางิ</dd>
+                    </div>
+                    <div>
+                        <dt>うげつ</dt>
+                        <dd class="rmj">Ugetsu</dd>
+                        <dd>อุเง็ตสึ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>さ す せ そ</td>
+            <td>
+                <p><em>sa su se</em></p>
+                <p><em>so</em></p>
+            </td>
+            <td>/s/</td>
+            <td>
+                <p>ส when syllable-final without ending sound, OR short す<br />ซ in all other positions</p>
+                <dl>
+                    <div>
+                        <dt>ささき</dt>
+                        <dd class="rmj">Sasaki</dd>
+                        <dd>ซาซากิ</dd>
+                    </div>
+                    <div>
+                        <dt>ななせ</dt>
+                        <dd class="rmj">Nanase</dd>
+                        <dd>นานาเสะ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>ざ ず ぜ ぞ づ</td>
+            <td>
+                <p><em>za zu ze</em></p>
+                <p><em>zo zu</em></p>
+            </td>
+            <td>/dz/, /z/</td>
+            <td>
+                <p>ซ</p>
+                <dl>
+                    <div>
+                        <dt>みずき</dt>
+                        <dd class="rmj">Mizuki</dd>
+                        <dd>มิซึกิ</dd>
+                    </div>
+                    <div>
+                        <dt>てづくり</dt>
+                        <dd class="rmj">tezukuri</dd>
+                        <dd>เทซึกุริ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>し</td>
+            <td><em>shi</em></td>
+            <td>/ɕ/</td>
+            <td>
+                <p>ช</p>
+                <dl>
+                    <div>
+                        <dt>しらはま</dt>
+                        <dd class="rmj">Shirahama</dd>
+                        <dd>ชิราฮามะ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>じ ぢ</td>
+            <td><em>ji ji</em></td>
+            <td>/dʑ/, /ʑ/</td>
+            <td>
+                <p>จ</p>
+                <dl>
+                    <div>
+                        <dt>じゅん</dt>
+                        <dd class="rmj">Jun</dd>
+                        <dd>จุน</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>た て と</td>
+            <td><em>ta te to</em></td>
+            <td>/t/</td>
+            <td>
+                <p markdown="1">ท when syllable-initial[^7]<br />ต in all other positions</p>
+                <dl>
+                    <div>
+                        <dt>たんとう</dt>
+                        <dd class="rmj">tantou</dd>
+                        <dd>ทันโต</dd>
+                    </div>
+                    <div>
+                        <dt>アトリエ</dt>
+                        <dd class="rmj">atorie</dd>
+                        <dd>อาโตริเอ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>だ で ど</td>
+            <td><em>da de do</em></td>
+            <td>/d/</td>
+            <td>
+                <p>ด</p>
+                <dl>
+                    <div>
+                        <dt>だいじ</dt>
+                        <dd class="rmj">daiji</dd>
+                        <dd>ไดจิ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>ち</td>
+            <td><em>chi</em></td>
+            <td>/tɕ/</td>
+            <td>
+                <p>จ</p>
+                <dl>
+                    <div>
+                        <dt>ちはる</dt>
+                        <dd class="rmj">Chiharu</dd>
+                        <dd>จิฮารุ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>つ</td>
+            <td><em>tsu</em></td>
+            <td>/ts/</td>
+            <td>
+                <p markdown="1">ทส, ทซ when syllable-initial[^7]<br />ตส, ตซ in all other positions<br />(When placed after an open
+                    syllable, count ต as a final consonant)</p>
+                <dl>
+                    <div>
+                        <dt>つける</dt>
+                        <dd class="rmj">tsukeru</dd>
+                        <dd>ทสึเกรุ</dd>
+                    </div>
+                    <div>
+                        <dt>かつき</dt>
+                        <dd class="rmj">Katsuki</dd>
+                        <dd>คัตสึกิ</dd>
+                    </div>
+                    <div>
+                        <dt>ふつう</dt>
+                        <dd class="rmj">futsū</dd>
+                        <dd>ฟุตซือ</dd>
+                    </div>
+                    <div>
+                        <dt>つうか</dt>
+                        <dd class="rmj">tsūka</dd>
+                        <dd>ทซือกะ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>な ぬ ね の</td>
+            <td>
+                <p><em>na nu ne</em></p>
+                <p><em>no</em></p>
+            </td>
+            <td>/n/</td>
+            <td>
+                <p>น</p>
+                <dl>
+                    <div>
+                        <dt>なに</dt>
+                        <dd class="rmj">nani</dd>
+                        <dd>นานิ</dd>
+                    </div>
+                    <div>
+                        <dt>ねこ</dt>
+                        <dd class="rmj">neko</dd>
+                        <dd>เนโกะ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>に</td>
+            <td><em>ni</em></td>
+            <td>/ɲ/</td>
+            <td>
+                <p>น</p>
+                <dl>
+                    <div>
+                        <dt>にんき</dt>
+                        <dd class="rmj">ninki</dd>
+                        <dd>นิงกิ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>は へ ほ</td>
+            <td><em>ha he ho</em></td>
+            <td>/h/</td>
+            <td>
+                <p>ฮ</p>
+                <dl>
+                    <div>
+                        <dt>はんざわ</dt>
+                        <dd class="rmj">Hanzawa</dd>
+                        <dd>ฮันซาวะ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>ば び ぶ べ ぼ</td>
+            <td>
+                <p><em>ba bi bu</em></p>
+                <p><em>be bo</em></p>
+            </td>
+            <td>/b/</td>
+            <td>
+                <p>บ</p>
+                <dl>
+                    <div>
+                        <dt>バスケ</dt>
+                        <dd class="rmj">basuke</dd>
+                        <dd>บาสึเกะ</dd>
+                    </div>
+                    <div>
+                        <dt>びょうき</dt>
+                        <dd class="rmj">byōki</dd>
+                        <dd>เบียวกิ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>ぱ ぴ ぷ ぺ ぽ</td>
+            <td>
+                <p><em>pa pi pu</em></p>
+                <p><em>pe po</em></p>
+            </td>
+            <td>/p/</td>
+            <td>
+                <p markdown="1">พ when syllable-initial[^7]
+                    <br />ป in all other positions
+                </p>
+                <dl>
+                    <div>
+                        <dt>パスポート</dt>
+                        <dd class="rmj">pasupōto</dd>
+                        <dd>พาสุโปโตะ</dd>
+                    </div>
+                    <div>
+                        <dt>きっぷ</dt>
+                        <dd class="rmj">kippu</dd>
+                        <dd>คิปปุ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>ひ</td>
+            <td><em>hi</em></td>
+            <td>/ç/</td>
+            <td>
+                <p>ฮ</p>
+                <dl>
+                    <div>
+                        <dt>ひめる</dt>
+                        <dd class="rmj">himeru</dd>
+                        <dd>ฮิเมรุ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>ふ</td>
+            <td><em>fu</em></td>
+            <td>/ɸ/</td>
+            <td>
+                <p>ฟ</p>
+                <dl>
+                    <div>
+                        <dt>ふだんし</dt>
+                        <dd class="rmj">fudanshi</dd>
+                        <dd>ฟุดันชิ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>ま み む め も</td>
+            <td>
+                <p><em>ma mi mu</em></p>
+                <p><em>me mo</em></p>
+            </td>
+            <td>/m/</td>
+            <td>
+                <p>ม</p>
+                <dl>
+                    <div>
+                        <dt>まばたき</dt>
+                        <dd class="rmj">mabataki</dd>
+                        <dd>มาบาตากิ</dd>
+                    </div>
+                    <div>
+                        <dt>めがね</dt>
+                        <dd class="rmj">megane</dd>
+                        <dd>เมงาเนะ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>や ゆ よ</td>
+            <td><em>ya yu yo</em></td>
+            <td>/j/</td>
+            <td>
+                <p>ย</p>
+                <dl>
+                    <div>
+                        <dt>やしろ</dt>
+                        <dd class="rmj">Yashiro</dd>
+                        <dd>ยาชิโระ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>ら り る れ ろ</td>
+            <td><em>ra ri ru<br />
+                    re ro</em></td>
+            <td>/ɾ/</td>
+            <td>
+                <p>ร</p>
+                <dl>
+                    <div>
+                        <dt>れき</dt>
+                        <dd class="rmj">Reki</dd>
+                        <dd>เรกิ</dd>
+                    </div>
+                    <div>
+                        <dt>いろいろ</dt>
+                        <dd class="rmj">iroiro</dd>
+                        <dd>อิโรอิโระ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>わ</td>
+            <td><em>wa</em></td>
+            <td>/ɰ/</td>
+            <td>
+                <p>ว</p>
+                <dl>
+                    <div>
+                        <dt>ワンツー</dt>
+                        <dd class="rmj">wantsū</dd>
+                        <dd>วันทซือ</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+    </tbody>
 </table>
-<section class="footnotes footnotes-end-of-document"
-role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1" role="doc-endnote"><p>The /k/, /t/, and /p/ sounds all have
-varying degrees of aspiration associated with them, that lies somewhere
-between aspirated and unaspirated Thai consonants. Thus, to not stray
-away from the norm, we use the aspirated consonant only when it’s in the
-syllable-initial position. The /tɕ/ in ち has not been confirmed by any
-research that it is aspirated, however. (Riney 2007, Vance 2008,
-Tsujimura 2013)<a href="#fnref1" class="footnote-back"
-role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
 
 ## Final Consonants
 
-ん is the only Japanese final consonant kana, but can be pronounced in a
-variety of ways, depending on the sound that follows it.
+ん is the only Japanese final consonant kana, but can be pronounced in a variety of ways, depending on the sound that follows it.
 
-<table>
-<colgroup>
-<col style="width: 8%" />
-<col style="width: 9%" />
-<col style="width: 10%" />
-<col style="width: 34%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th colspan="3"><strong>Following Consonant</strong></th>
-<th><strong>Thai Transliteration</strong></th>
-<th colspan="3"><strong>Examples</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><p>あ</p>
-<p>さ し</p>
-<p>ざ じ</p>
-<p>た ち つ</p>
-<p>だ</p>
-<p>な に</p>
-<p>ら</p></td>
-<td><p><em>a–</em></p>
-<p><em>s–</em></p>
-<p><em>z–, ji</em></p>
-<p><em>t–, chi, tsu</em></p>
-<p><em>d–</em></p>
-<p><em>n–</em></p>
-<p><em>r–</em></p></td>
-<td><p>/ɰ̃/</p>
-<p>/ɰ̃/, /ɰ̃/</p>
-<p>/n/, /ɲ/</p>
-<p>/n/, /ɲ/, /n/</p>
-<p>/n/</p>
-<p>/n/, /ɲ/</p>
-<p>/n/</p></td>
-<td>น</td>
-<td><p>さんえん</p>
-<p>さんさい</p>
-<p>さんぜん</p>
-<p>さんつう</p>
-<p>さんど</p>
-<p>さんにん</p>
-<p>さんるい</p></td>
-<td><p><em>san’en</em></p>
-<p><em>sansai</em></p>
-<p><em>sanzen</em></p>
-<p><em>santsū</em></p>
-<p><em>sando</em></p>
-<p><em>sannin</em></p>
-<p><em>sanrui</em></p></td>
-<td><p>ซันเอ็น</p>
-<p>ซันไซ</p>
-<p>ซันเซ็ง</p>
-<p>ซันทซือ</p>
-<p>ซันโดะ</p>
-<p>ซันนิง</p>
-<p>ซันรุย</p></td>
-</tr>
-<tr>
-<td><p>ば</p>
-<p>ぱ</p>
-<p>ま</p></td>
-<td><p><em>b–</em></p>
-<p><em>p–</em></p>
-<p><em>m–</em></p></td>
-<td>/m/</td>
-<td>ม</td>
-<td><p>さんぶ</p>
-<p>さんぱく</p>
-<p>さんまい</p></td>
-<td><p><em>sanbu</em></p>
-<p><em>sanpaku</em></p>
-<p><em>sanmai</em></p></td>
-<td><p>ซัมบุ</p>
-<p>ซัมปากุ</p>
-<p>ซัมไม</p></td>
-</tr>
-<tr>
-<td><p>か</p>
-<p>が</p>
-<p>は ひ ふ</p>
-<p>や</p>
-<p>わ</p>
-<p>None</p></td>
-<td><p><em>k–</em></p>
-<p><em>g–</em></p>
-<p><em>h–</em></p>
-<p><em>y–</em></p>
-<p><em>w–</em></p>
-<p><em>–</em></p></td>
-<td><p>/ŋ/</p>
-<p>/ŋ/</p>
-<p>/ɰ̃/</p>
-<p>/ɰ̃/</p>
-<p>/ɰ̃/</p>
-<p>/ɴ/</p></td>
-<td>ง</td>
-<td><p>さんかい</p>
-<p>さんごう</p>
-<p>さんはい</p>
-<p>さんヤード</p>
-<p>さんわり</p>
-<p>さん</p></td>
-<td><p><em>sankai</em></p>
-<p><em>sangou</em></p>
-<p><em>sanhai</em></p>
-<p><em>sanyādo</em></p>
-<p><em>sanwari</em></p>
-<p><em>san</em></p></td>
-<td><p>ซังไก</p>
-<p>ซังโง</p>
-<p>ซังไฮ</p>
-<p>ซังยาโดะ</p>
-<p>ซังวาริ</p>
-<p>ซัง</p></td>
-</tr>
-</tbody>
+<table class="rt rt-wide">
+    <tbody>
+        <tr>
+            <td>
+                あ<br />
+                さ し<br />
+                ざ じ<br />
+                た ち つ<br />
+                だ<br />
+                な に<br />
+                ら
+            </td>
+            <td>
+                a–<br />
+                s–<br />
+                z–, ji<br />
+                t–, chi, tsu<br />
+                d–<br />
+                n–<br />
+                r–
+            </td>
+            <td>/ɰ̃/<br />
+                /ɰ̃/, /ɰ̃/<br />
+                /n/, /ɲ/<br />
+                /n/, /ɲ/, /n/<br />
+                /n/<br />
+                /n/, /ɲ/<br />
+                /n/</td>
+            <td>
+                <p>น</p>
+                <dl>
+                    <div>
+                        <dt>さんえん</dt>
+                        <dd class="rmj">san’en</dd>
+                        <dd>ซันเอ็น</dd>
+                    </div>
+                    <div>
+                        <dt>さんさい</dt>
+                        <dd class="rmj">sansai</dd>
+                        <dd>ซันไซ</dd>
+                    </div>
+                    <div>
+                        <dt>さんぜん</dt>
+                        <dd class="rmj">sanzen</dd>
+                        <dd>ซันเซ็ง</dd>
+                    </div>
+                    <div>
+                        <dt>さんつう</dt>
+                        <dd class="rmj">santsū</dd>
+                        <dd>ซันทซือ</dd>
+                    </div>
+                    <div>
+                        <dt>さんど</dt>
+                        <dd class="rmj">sando</dd>
+                        <dd>ซันโดะ</dd>
+                    </div>
+                    <div>
+                        <dt>さんにん</dt>
+                        <dd class="rmj">sannin</dd>
+                        <dd>ซันนิง</dd>
+                    </div>
+                    <div>
+                        <dt>さんるい</dt>
+                        <dd class="rmj">sanrui</dd>
+                        <dd>ซันรุย</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>ば<br />
+                ぱ<br />
+                ま</td>
+            <td>b–<br />
+                p–<br />
+                m–</td>
+            <td>/m/</td>
+            <td>
+                <p>
+                    ม
+                </p>
+                <dl>
+                    <div>
+                        <dt>さんぶ</dt>
+                        <dd class="rmj">sanbu</dd>
+                        <dd>ซัมบุ</dd>
+                    </div>
+                    <div>
+                        <dt>さんぱく</dt>
+                        <dd class="rmj">sanpaku</dd>
+                        <dd>ซัมปากุ</dd>
+                    </div>
+                    <div>
+                        <dt>さんまい</dt>
+                        <dd class="rmj">sanmai</dd>
+                        <dd>ซัมไม</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>か<br />
+                が<br />
+                は ひ ふ<br />
+                や<br />
+                わ<br />
+                None
+            </td>
+            <td>
+                k–<br />
+                g–<br />
+                h–<br />
+                y–<br />
+                w–<br />
+                –
+            </td>
+            <td>/ŋ/<br />
+                /ŋ/<br />
+                /ɰ̃/<br />
+                /ɰ̃/<br />
+                /ɰ̃/<br />
+                /ɴ/
+            </td>
+            <td>
+                <p>
+                    ง
+                </p>
+                <dl>
+                    <div>
+                        <dt>さんかい</dt>
+                        <dd class="rmj">sankai</dd>
+                        <dd>ซังไก</dd>
+                    </div>
+                    <div>
+                        <dt>さんごう</dt>
+                        <dd class="rmj">sangou</dd>
+                        <dd>ซังโง</dd>
+                    </div>
+                    <div>
+                        <dt>さんはい</dt>
+                        <dd class="rmj">sanhai</dd>
+                        <dd>ซังไฮ</dd>
+                    </div>
+                    <div>
+                        <dt>さんヤード</dt>
+                        <dd class="rmj">sanyādo</dd>
+                        <dd>ซังยาโดะ</dd>
+                    </div>
+                    <div>
+                        <dt>さんわり</dt>
+                        <dd class="rmj">sanwari</dd>
+                        <dd>ซังวาริ</dd>
+                    </div>
+                    <div>
+                        <dt>さん</dt>
+                        <dd class="rmj">san</dd>
+                        <dd>ซัง</dd>
+                    </div>
+                </dl>
+            </td>
+        </tr>
+    </tbody>
 </table>
 
 As for the **sokuon**, simply use the following consonant as the final
 consonant, i.e.
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
+<table style="max-width: 300px; margin-left: 2em;">
 <tbody>
 <tr>
-<td><p>うえっち</p>
-<p>まっしろ</p>
-<p>はっか</p></td>
-<td><p><em>uecchi</em></p>
-<p><em>masshiro</em></p>
-<p><em>hakka</em></p></td>
-<td><p>อุเอ็จจิ</p>
-<p>มัชชิโระ</p>
-<p>ฮักกะ</p></td>
+<td>うえっち</td>
+<td class="rmj">Uecchi</td>
+<td>อุเอ็จจิ</td>
+</tr>
+<tr>
+<td>まっしろ</td>
+<td class="rmj">masshiro</td>
+<td>มัชชิโระ</td>
+</tr>
+<tr>
+<td>はっか</td>
+<td class="rmj">Hakka</td>
+<td>ฮักกะ</td>
 </tr>
 </tbody>
 </table>
 
 # Attributions
 
-Acquisitions and Bibliographic Access Directorate of the Library of
-Congress. (2022). _Japanese Romanization Table_. The Library of
-Congress. Retrieved March 1, 2023, from
-https://www.loc.gov/catdir/cpso/roman.html
+Acquisitions and Bibliographic Access Directorate of the Library of Congress. (2022). _Japanese Romanization Table_. The Library of Congress. Retrieved March 1, 2023, from https://www.loc.gov/catdir/cpso/roman.html
+{: .attr}
 
-Association, I. P. (1999). _Handbook of the International Phonetic
-Association: A Guide to the Use of the International Phonetic Alphabet_.
-Cambridge University Press.
+Association, I. P. (1999). _Handbook of the International Phonetic Association: A Guide to the Use of the International Phonetic Alphabet_. Cambridge University Press.
+{: .attr}
 
-Homma, Y. (1981). Durational relationship between Japanese stops and
-vowels. _Journal of Phonetics_, _9_(3), 273–281.
-https://doi.org/10.1016/s0095-4470(19)30971-4
+Homma, Y. (1981). Durational relationship between Japanese stops and vowels. _Journal of Phonetics_, _9_(3), 273–281. https://doi.org/10.1016/s0095-4470(19)30971-4
+{: .attr}
 
-Office of the Royal Society. (2018). หลักเกณฑ์การทับศัพท์ภาษาเยอรมัน สเปน ญี่ปุ่น
-และมลายู. In _Royal Thai Government Gazette_ (เล่ม 135 ตอนพิเศษ 82 ง หน้า
-2). Cabinet and Royal Gazette Publishing Office.
-https://ratchakitcha.soc.go.th/documents/2137260.pdf
+Office of the Royal Society. (2018). หลักเกณฑ์การทับศัพท์ภาษาเยอรมัน สเปน ญี่ปุ่น และมลายู. In _Royal Thai Government Gazette_ (เล่ม 135 ตอนพิเศษ 82 ง หน้า 2). Cabinet and Royal Gazette Publishing Office. https://ratchakitcha.soc.go.th/documents/2137260.pdf
+{: .attr}
 
-Phyblas. (2022, March 23). _หลักการเขียนทับศัพท์ภาษาญี่ปุ่น_. บล็อกของ Phyblas.
-https://phyblas.hinaboshi.com/20130109
+Phyblas. (2022, March 23). _หลักการเขียนทับศัพท์ภาษาญี่ปุ่น_. บล็อกของ Phyblas. https://phyblas.hinaboshi.com/20130109
+{: .attr}
 
-Riney, T. J., Takagi, N., Ota, K., & Uchida, Y. (2007). The intermediate
-degree of VOT in Japanese initial voiceless stops. _Journal of
-Phonetics_, _35_(3), 439–443. https://doi.org/10.1016/j.wocn.2006.01.002
+Riney, T. J., Takagi, N., Ota, K., & Uchida, Y. (2007). The intermediate degree of VOT in Japanese initial voiceless stops. _Journal of Phonetics_, _35_(3), 439–443. https://doi.org/10.1016/j.wocn.2006.01.002
+{: .attr}
 
 Royal Society. (2011). _Royal Institute Dictionary 2011_.
+{: .attr}
 
-Tsujimura, N. (2013). _An Introduction to Japanese Linguistics_. John
-Wiley & Sons.
+Tsujimura, N. (2013). _An Introduction to Japanese Linguistics_. John Wiley & Sons.
+{: .attr}
 
-Vance, T. J. (2008). _The Sounds of Japanese with Audio CD_. Cambridge
-University Press.
+Vance, T. J. (2008). _The Sounds of Japanese with Audio CD_. Cambridge University Press.
+{: .attr}
 
-[^1]:
-    Vowels are only considered long if they are from the same
-    morpheme. For example, 砂糖屋 (_satōya_, _sa-tō-ya_) would be
-    transliterated as ซาโตยะ, whereas 里親 (_satooya_, _sato-oya_) has a
-    morpheme split in the middle and would be transliterated as
-    ซาโตโอยะ.
-
-[^2]:
-    These exceptions are only applied as long as the sequence happens
-    within the same morpheme.
+[^1]: Vowels are only considered long if they are from the same morpheme. For example, 砂糖屋 (_satōya_, _sa-tō-ya_) would be transliterated as ซาโตยะ, whereas 里親 (_satooya_, _sato-oya_) has a morpheme split in the middle and would be transliterated as ซาโตโอยะ.
+[^2]: えい and ええ have the same pronunciation (/eː/) in general speech; however, when enunciating or stressing, えい may turn into /ei/. Thus, -ย์ is introduced to differentiate ええ and えい.
+[^3]: In media and popular use, おう can have -ว (making โอว) to indicate the う part. However, this is considered unnecessary, as おう and おお are pronounced the same (/oː/).
+[^4]: These exceptions are only applied as long as the sequence happens within the same morpheme.
+[^5]: すい, ずい, and つい are also written with อุย, as อึย does not appear in Thai.
+[^6]: Remove the following final consonant if any, since เอียว already has a final consonant.
+[^7]: The /k/, /t/, and /p/ sounds all have varying degrees of aspiration associated with them, that lies somewhere between aspirated and unaspirated Thai consonants. Thus, to not stray away from the norm, we use the aspirated consonant only when it’s in the syllable-initial position. The /tɕ/ in ち has not been confirmed by any research that it is aspirated, however. (Riney 2007, Vance 2008, Tsujimura 2013)

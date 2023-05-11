@@ -12,6 +12,10 @@ body {
   color: var(--clr-romaji);
 }
 
+ol ol {
+  margin: 0;
+}
+
 .rt {
   max-width: 610px;
 }
@@ -27,7 +31,12 @@ body {
 .rt tr > td:nth-child(1),
 .rt tr > td:nth-child(2),
 .rt tr > td:nth-child(3) {
-  width: 56px;
+  width: 60px;
+}
+.rt-wide tr > td:nth-child(1),
+.rt-wide tr > td:nth-child(2),
+.rt-wide tr > td:nth-child(3) {
+  width: 100px;
 }
 
 .rt tr > td:nth-child(1) {
@@ -113,4 +122,9 @@ body {
   .rt tr > td:nth-child(4) dl > div {
     gap: 20px;
   }
+}
+
+.attr {
+  margin-left: 40px;
+  text-indent: -40px;
 }
